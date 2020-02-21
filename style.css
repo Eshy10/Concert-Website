@@ -228,28 +228,28 @@ hr {
 .artist-image .main-artist-img3 {
     position: absolute;
     width: 7rem;
-    top: 27vh;
+    top: 29vh;
     left: 6px;
 }
 
 .artist-image .main-artist-img4 {
     position: absolute;
     width: 7rem;
-    top: 27vh;
+    top: 28vh;
     left: 52.1%;
 }
 
 .artist-image .main-artist-img5 {
     position: absolute;
     width: 7rem;
-    top: 51vh;
+    top: 54vh;
     left: 6px;
 }
 
 .artist-image .main-artist-img6 {
     position: absolute;
     width: 7rem;
-    top: 51vh;
+    top: 54vh;
     left: 52.1%;
 }
 
@@ -302,4 +302,23 @@ hr {
 .partner-list li {
     padding: 2em;
     font-size: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-logo-text {
+    margin-left: .3em;
+}
+
+.footer-about {
+    margin-right: 15em;
 }
