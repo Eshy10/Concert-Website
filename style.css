@@ -283,3 +283,23 @@ hr {
     margin-right: 12em;
     width: 2vw; 
 }
+
+.partners {
+    background-color: #272A31;
+    color: #D3D3D3;
+}
+
+.partners .title {
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.partner-list {
+    display: flex;
+    margin: 0 auto;
+}
+
+.partner-list li {
+    padding: 2em;
+    font-size: 1.2rem;
+}
