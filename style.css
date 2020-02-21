@@ -144,12 +144,30 @@ a {
     margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.side-program div {
+    border: 1px solid #272A31;
+    background: #272A31;
+    padding: 1em;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .side-program h3 {
     color: #EC5242;
+    margin-top: .5em;
 }
 
-.fa-napster {
-    color: aliceblue;
+.side-program p {
+    margin-top: .5em;
+    line-height: 1.5;
+}
+
+.fa-napster, .fa-gamepad, .fa-play-circle {
+    color: #D3D3D3;
 }
