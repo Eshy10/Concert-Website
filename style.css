@@ -190,3 +190,96 @@ hr {
 .fa-napster, .fa-gamepad, .fa-play-circle, .fa-suitcase {
     color: #D3D3D3;
 }
+
+.artist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    position: relative;
+    margin-top: 2em;
+}
+
+.artist-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-image img {
+    width: 5rem;
+    position: relative;
+}
+
+.artist-image .main-artist-img {
+    position: absolute;
+    width: 7rem;
+    top: 15px;
+    left: 6px;
+}
+
+.artist-image .main-artist-img2 {
+   position: absolute;
+   width: 7rem;
+   top: 15px;
+   left: 52.1%;
+ 
+}
+
+.artist-image .main-artist-img3 {
+    position: absolute;
+    width: 7rem;
+    top: 27vh;
+    left: 6px;
+}
+
+.artist-image .main-artist-img4 {
+    position: absolute;
+    width: 7rem;
+    top: 27vh;
+    left: 52.1%;
+}
+
+.artist-image .main-artist-img5 {
+    position: absolute;
+    width: 7rem;
+    top: 51vh;
+    left: 6px;
+}
+
+.artist-image .main-artist-img6 {
+    position: absolute;
+    width: 7rem;
+    top: 51vh;
+    left: 52.1%;
+}
+
+
+
+.artist-info {
+    margin-left: 3em;
+}
+
+.artiste h2 {
+    margin: 0 auto; 
+    font-size: 2rem; 
+}
+
+.artist-info i {
+    color: #ec5242;
+}
+
+.artist-info h3 {
+    margin-bottom: .3em;
+}
+
+.artist-info p {
+    line-height: 1.2;
+}
+
+.grey-horizontal {
+    margin-top: 7px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-right: 12em;
+    width: 2vw; 
+}
