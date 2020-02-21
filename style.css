@@ -13,6 +13,10 @@ a {
     color: white;
 }
 
+hr {
+    color: #EC5242;  
+}
+
 #active {
     color: #EC5242;
 }
@@ -83,7 +87,7 @@ a {
 .main-event {
     background: linear-gradient(to bottom, rgba(73, 70, 70, 0.9), rgba(245, 243, 243, 0.966)),
     url('./images/Music-Live-Bands-in-Lagos.jpg')no-repeat center center/cover;
-    height: 90vh;
+    height: 100vh;
 }
 
 .container {
@@ -136,8 +140,16 @@ a {
     background-color: black;
 }
 
-.side-attraction h2, p {
+.side-attraction h2{
     color: white;
+    margin: 0 auto;
+}
+
+hr {
+    margin-top: 10px;
+    border: 1px solid #ec5242;
+    border-radius: 5px;
+    width: 3vw;
 }
 
 .side-program {
@@ -151,7 +163,6 @@ a {
     border: 1px solid #272A31;
     background: #272A31;
     padding: 1em;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,9 +176,17 @@ a {
 
 .side-program p {
     margin-top: .5em;
+    text-align: center;
     line-height: 1.5;
+    color: white;
 }
 
-.fa-napster, .fa-gamepad, .fa-play-circle {
+.program-link {
+    margin: 0 auto;
+    text-decoration: underline;
+    margin-top: 2em;
+}
+
+.fa-napster, .fa-gamepad, .fa-play-circle, .fa-suitcase {
     color: #D3D3D3;
 }
