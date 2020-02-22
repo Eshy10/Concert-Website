@@ -432,3 +432,83 @@ hr {
 .bottom {
     padding: 3em;
 }
+
+.tickets h1 {
+    margin: 0 auto;
+}
+
+.tickets-step {
+   border: 1px solid rgb(214, 210, 210);
+   padding: 1em;
+   border-radius: 20px;
+   margin: 0 auto;
+   margin-top: 3em;
+}
+
+.tickets-step::before {
+    content: '\25C6';
+    color: #ec5242;
+    padding-right: 5px;
+}
+
+.span-ticket-text {
+    margin-left: 1em;
+}
+
+
+.ticket-table {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr 1.5fr;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.ticket-table div {
+    border: 1px solid rgb(243, 240, 240);
+}
+
+#row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+  
+}
+
+.col {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.fancy-border {
+    border: 5px solid;
+    border-image:   linear-gradient(to left, rgb(240, 24, 9) 25%, yellow 25%, rgb(0, 255, 200) 50%,red 50%, rgb(0, 238, 255) 75%, rgb(253, 35, 6) 55%) 5;
+  }
+
+  .col-bg {
+      padding: 1.5em;
+  }
+
+  .orange-box {
+      background-color: #ec5242;
+      width: 50px;
+      height: 50px;
+      transform: rotate(120deg);
+      margin: 0 auto;
+  }
+
+  .fa-chevron-down {
+    transform: rotate(240deg);
+    padding: 1em;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
