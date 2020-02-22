@@ -512,6 +512,40 @@ hr {
     margin: 0 auto;
   }
 
+  .raffle-ticket-1, .raffle-ticket-2 {
+      margin: 0 auto;
+      margin-top: 4em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+  .raffle-ticket {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .raffle-ticket li {
+      padding: 2em;
+  }
+
+  .grey {
+      background-color: #f5efef;
+      height: 5vh;
+  }
+
+  .button {
+      background-color: #ec5242;
+      color: white;
+      padding: 1em 3em;
+      text-transform: uppercase;
+      margin: 0 auto;
+      margin-top: 2em;
+      font-weight: bold;
+  }
+
+  .button:hover {
+      background-color: #272A31;
+  }
+
 
 
 
