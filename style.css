@@ -433,6 +433,10 @@ hr {
     padding: 3em;
 }
 
+.tickets {
+    background-color: rgba(214, 210, 210, 0.3);
+}
+
 .tickets h1 {
     margin: 0 auto;
 }
@@ -481,9 +485,9 @@ hr {
     padding: 1em;
 }
 
-.fancy-border {
+.colored-border {
     border: 5px solid;
-    border-image:   linear-gradient(to left, rgb(240, 24, 9) 25%, yellow 25%, rgb(0, 255, 200) 50%,red 50%, rgb(0, 238, 255) 75%, rgb(253, 35, 6) 55%) 5;
+    border-image: linear-gradient(to left, rgb(240, 24, 9) 25%, yellow 25%, rgb(0, 255, 200) 50%,red 50%, rgb(0, 238, 255) 75%, rgb(253, 35, 6) 55%) 5;
   }
 
   .col-bg {
@@ -502,6 +506,10 @@ hr {
     transform: rotate(240deg);
     padding: 1em;
     color: #fff;
+  }
+
+  .raffle h1 {
+    margin: 0 auto;
   }
 
 
