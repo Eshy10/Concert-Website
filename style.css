@@ -388,3 +388,47 @@ hr {
   border-bottom: 1px solid grey;
   font-size: .8rem;
 }
+
+.past-event h2 {
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.past-event p {
+    margin: 0 auto;
+}
+
+.event-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 30vh;
+    width: 50vw;
+    grid-gap: 20px;
+    margin-top: 3em;
+}
+
+.event-image {
+    background: linear-gradient(to bottom, rgba(231, 158, 158, 0.9), rgba(58, 6, 6, 0.966)),
+    url('./images/fest.jpeg')no-repeat center center/cover;
+}
+
+.second-event-image {
+    background: linear-gradient(to bottom, rgba(231, 158, 158, 0.9), rgba(58, 6, 6, 0.966)),
+    url('./images/live.jpeg')no-repeat center center/cover;
+
+}
+
+.event-images h3 {
+    color: white;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.dark {
+    background-color: #272A31;
+    color: #fff;
+}
+
+.bottom {
+    padding: 3em;
+}
