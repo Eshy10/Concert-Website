@@ -443,7 +443,14 @@ input[type="radio"] { margin: auto; }
   color: #fff;
 }
 
-#day-show { display: none; }
+#day-show,
+#day-show1,
+#day-show2,
+#day-show3,
+#day-show4,
+#day-show5,
+#day-show6,
+#day-show7 { display: none; }
 
 .raffle h1 { margin: 0 auto; }
 
@@ -614,7 +621,14 @@ input[type="radio"] { margin: auto; }
     margin-left: -10%;
   }
 
-  #day-show {
+  #day-show,
+  #day-show1,
+  #day-show2,
+  #day-show3,
+  #day-show4,
+  #day-show5,
+  #day-show6,
+  #day-show7 {
     display: block;
     margin-bottom: 0.5em;
   }
