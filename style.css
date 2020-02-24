@@ -494,7 +494,13 @@ input[type="radio"] { margin: auto; }
   .artist {
     display: grid;
     grid-template-columns: 1fr;
+    width:50%
   }
+
+  .artist-image { 
+      width: 100%; 
+      margin-left: 15%;
+    }
 
   .partner-list {
     display: flex;
@@ -541,7 +547,10 @@ input[type="radio"] { margin: auto; }
 
   .main-event h1 { font-size: 2rem; }
 
-  .artist-info { width: 50%; }
+  .artist-info { 
+      width: 90%; 
+      margin-left: 3%;
+    }
 
   section { overflow: hidden; }
 
@@ -608,7 +617,7 @@ input[type="radio"] { margin: auto; }
   .artist-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .footer { display: inline-block; }
@@ -639,4 +648,5 @@ input[type="radio"] { margin: auto; }
     line-height: 1;
     width: 80%;
   }
+
 }
