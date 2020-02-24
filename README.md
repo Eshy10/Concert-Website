@@ -23,7 +23,7 @@ To build a concert website for an HTML/CSS Capstone Project at Microverse
 <a href="https://raw.githack.com/Eshy10/Concert-Website/feature-branch/index.html">Live Demo Link</a>
 
 # Video link
-- The video below is an explanation of the project
+- The video is an explanation of the project
 <a href="https://www.loom.com/share/ad4b6dd10ece452e995f97f479155ebe">Check here</a>
 
 # Installation
