@@ -17,7 +17,7 @@ hr {
     color: #EC5242;  
 }
 
-#active {
+#active, #active-btn {
     color: #EC5242;
 }
 
@@ -728,6 +728,11 @@ section {
 
     #sm-none {
         display: none;
+    }
+
+    .main-event p {
+        line-height: 1;
+        width: 80%;
     }
 
 }
