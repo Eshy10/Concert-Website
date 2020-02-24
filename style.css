@@ -412,6 +412,7 @@ hr {
 .dark {
     background-color: #272A31;
     color: #fff;
+    height: 10vh;
 }
 
 .bottom {
@@ -453,14 +454,29 @@ hr {
 }
 
 .ticket-table div {
-    border: 1px solid rgb(243, 240, 240);
+    border: 1px solid rgb(224, 215, 215);
+}
+
+.ticket-table div:last-child {
+    border-bottom: none;
+}
+
+input[type="radio"] {
+  margin: auto;  
 }
 
 #row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: none;
-  
+}
+
+#row div {
+    border-right: none;
+}
+
+#row div:nth-child(1) {
+    border-left: none;
+    border-bottom: none;
 }
 
 .col {
@@ -483,15 +499,20 @@ hr {
       background-color: #ec5242;
       width: 50px;
       height: 50px;
-      transform: rotate(120deg);
+      transform: rotate(45deg);
       margin: 0 auto;
+      margin-top: -1.5em;
   }
 
   .fa-chevron-down {
-    transform: rotate(240deg);
+    transform: rotate(305deg);
     padding: 1em;
     color: #fff;
   }
+
+  #day-show {
+    display: none;
+}
 
   .raffle h1 {
     margin: 0 auto;
@@ -548,10 +569,6 @@ hr {
     display: flex;
     margin: 0 auto;
     flex-direction: column;
-   }
-
-   .footer {
-    display: inline-block;
    }
 
    .footer-about  {
@@ -613,12 +630,9 @@ section {
 .artist-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
-#tiwa-info {
-    margin-left: 0;
-}
 
 .about-event {
     padding: 0;
@@ -631,7 +645,6 @@ section {
 
 .about-event p{
     font-size: 3vw;
-    width: 100%;
 }
 
 .about-event h2 {
@@ -684,9 +697,38 @@ section {
     margin:0;
 }
 
-.raffle-ticket {
-    flex-direction: column;
+
 }
+
+@media (max-width: 576px) {
+    .artist-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer {
+        display: inline-block;
+       }
+
+       .raffle-ticket {
+        flex-direction: column;
+    }
+
+    .ticket-table {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -10%;
+    }
+
+    #day-show {
+        display: block;
+        margin-bottom: .5em;
+    }
+
+    #sm-none {
+        display: none;
+    }
 
 }
 
