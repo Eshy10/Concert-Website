@@ -1,5 +1,5 @@
 # Concert-Website
-The Project requirement is to build a responsive website for the desktop and mobile version.
+The Project requirement is to build a responsive website for the desktop and mobile screen.
 The minimum pages required for the project include the following pages:
 - Home Page
 - About page
