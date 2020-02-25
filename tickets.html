@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/f02bbd63cf.js" crossorigin="anonymous"></script>
+    <title>Boom Concert</title>
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+   <header>
+       <nav>
+           <div class="firstNavbar">
+               <ul>
+                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                 <li><a href="#">English</a></li>
+                 <li><a href="#">My Page</a></li>
+                 <li><a href="#">Logout</a></li>
+               </ul>
+           </div>
+           <div class="secondNavbar">
+               <div class="nav-logo">
+                <i class="fab fa-bootstrap fa-2x"></i>
+                   <div class="nav-logo-text">
+                       <h2>Boom</h2>
+                       <h3>Music Festival</h3>
+                   </div>
+               </div>
+               <div class="nav-links show">
+                   <ul class="nav-links show">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#artistt">Artist</a></li>
+                   <li><a href="#">Contact</a></li>
+                   <li><a id="active-btn" class="btn" href="tickets.html">BUY TICKETS</a></li>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+   </header>
+   <!-- Tickets section -->
+<section class="tickets">
+   <div class="container">
+    <h1>Select Tickets</h1> 
+    <hr>
+    <p class="tickets-step">
+      Step 1 <span class="span-ticket-text">Please select the day you want to attend Boom Lagos Festival</span>  
+    </p>
+    <div class="ticket-table colored-border">
+        <div id="sm-none">
+           <div class="col">
+               <h2>Ticket</h2>
+           </div>
+           <div class="col">
+             <h2>Day</h2> 
+           </div>
+           <div class="col col-bg">
+         <h2>Regular</h2>
+           </div>
+           <div class="col col-bg">
+              <h2>Premium</h2> 
+           </div> 
+        </div>
+        <div>
+            <div class="col">
+                <h2>1-Day Ticket</h2>
+            </div>
+            <div class="col">
+                <h2>10 Jul(Fri)</h2>
+            </div>
+            <div class="col">
+                <h2 id="day-show">Regular</h2>
+                <h2>500000</h2>
+                <input type="radio" id="ticket-1" name="ticket" value="ticket">
+            </div>
+            <div class="col">
+                <h2 id="day-show1">Premium</h2>
+                <h2>500000</h2>
+                <input type="radio" id="ticket-2" name="ticket" value="ticket">
+            </div>
+        </div>
+        <div>
+            <h2 class="col">2-Day-ticket</h2>
+            <div id="row">
+                <div>
+                <div class="col"><h2>10 Jul(fri)</h2></div>
+                <div class="col">
+                    <h2 id="day-show2">Regular</h2>
+                    <h2>2000000</h2>
+                    <input type="radio" id="ticket-3" name="ticket" value="ticket">
+                </div>
+                <div class="col">
+                    <h2 id="day-show3">Premium</h2>
+                    <h2>2000000</h2>
+                    <input type="radio" id="ticket-4" name="ticket" value="ticket">
+                </div>
+                </div>
+                <div>
+                    <div class="col"><h2>11 Jul(sat)</h2></div>
+                    <div class="col">
+                        <h2 id="day-show4">Regular</h2>
+                        <h2>2000000</h2>
+                        <input type="radio" id="ticket-5" name="ticket" value="ticket">
+                    </div>
+                    <div class="col">
+                        <h2 id="day-show5">Premium</h2>
+                        <h2>2000000</h2>
+                        <input type="radio" id="ticket-6" name="ticket" value="ticket">
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div>
+            <div class="col"><h2>Affilate partner</h2></div>
+            <div class="col"><h2>10 Jul(fri)</h2></div>
+            <div class="col">
+                <h2 id="day-show6">Regular</h2>
+                <h2>000000</h2>
+                <input type="radio" id="ticket-7" name="ticket" value="ticket">
+            </div>
+            <div class="col">
+                <h2 id="day-show7">Premium</h2>
+                <h2>0000000</h2>
+                <input type="radio" id="ticket-8" name="ticket" value="ticket">
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+<!-- orange box -->
+<div class="orange-box"><i class="fas fa-chevron-down"></i></div>
+<!-- Raffle-ticket section -->
+<section class="raffle">
+<div class="container">
+    <h1>Select Tickets</h1> 
+    <hr>
+    <p class="tickets-step">
+      Step 2 <span class="span-ticket-text">Please select a random ticket to participate in the rafle draw</span>  
+    </p>
+    <div class="raffle-ticket-1">
+        <div class="grey"></div>
+        <ul class="raffle-ticket">
+        <li>
+        <label for="ticket-9">Ticket 1</label>
+        <input type="radio" id="ticket-9" name="ticket" value="ticket">
+        </li>
+        <li>
+        <label for="ticket-10">Ticket 2</label>
+        <input type="radio" id="ticket-10" name="ticket" value="ticket">
+        </li>
+            <li>
+            <label for="ticket-11">Ticket 3</label>
+            <input type="radio" id="ticket-11" name="ticket" value="ticket">
+            </li>
+            <li>
+            <label for="ticket-12">Ticket 4</label>
+            <input type="radio" id="ticket-12" name="ticket" value="ticket">
+            </li>
+        </ul>
+    </div>
+    <div class="raffle-ticket-2">
+        <div class="grey"></div>
+        <ul class="raffle-ticket">
+        <li>
+        <label for="ticket-13">Ticket 5</label>
+        <input type="radio" id="ticket-13" name="ticket" value="ticket">
+        </li>
+        <li>
+        <label for="ticket-14">Ticket 6</label>
+        <input type="radio" id="ticket-14" name="ticket" value="ticket">
+        </li>
+            <li>
+            <label for="ticket-15">Ticket 7</label>
+            <input type="radio" id="ticket-15" name="ticket" value="ticket">
+            </li>
+            <li>
+            <label for="ticket-16">Ticket 8</label>
+            <input type="radio" id="ticket-16" name="ticket" value="ticket">
+            </li>
+        </ul>
+    </div>
+    <a href="#" class="button">Submit</a>
+</div>
+</section>
+<!-- Footer -->
+<section class="footer dark">
+    <div class="footer-logo bottom">
+        <i class="fab fa-bootstrap fa-2x"></i>
+           <div class="footer-logo-text">
+               <h2>Boom</h2>
+               <h3>Music Festival</h3>
+           </div>
+       </div>
+       <div class="footer-about bottom">
+           <p>2019 Boom Lagos Music Festival. Some Rights Reserved</p>
+       </div>   
+</section>
+<!-- link to javascript file -->
+<script src="main.js"></script>
+</body>
+</html>

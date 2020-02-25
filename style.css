@@ -1,0 +1,644 @@
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
+
+body { font-family: 'Lato', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#active,
+#active-btn { color: #ec5242; }
+
+/* Navigation bar */
+
+.firstNavbar { background-color: #272a31; }
+
+.firstNavbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.firstNavbar li { padding: 1em; }
+
+.nav-links li {
+  padding: 1em;
+  list-style: none;
+}
+
+.partner-list li {
+  padding: 2em;
+  font-size: 1.2rem;
+}
+
+.raffle-ticket li { padding: 2em; }
+
+.firstNavbar li:last-child { margin-right: 10em; }
+
+.secondNavbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.nav-logo,
+.logo { display: flex; }
+
+.fa-bootstrap { color: rgb(243, 18, 48); }
+
+.nav-logo-text,
+.logo-text { margin-left: 0.3em; }
+
+.nav-links { display: flex; }
+
+.nav-links a { color: #272a31; }
+
+.menu-btn { display: none; }
+
+.btn {
+  border: 4px solid #ec5242;
+  padding: 1em;
+  color: #ec5242;
+  margin-left: 2em;
+}
+
+.btn:hover {
+  background-color: #272a31;
+  color: white;
+}
+
+/* main-event */
+.main-event,
+.about-event {
+  background:
+    linear-gradient(to bottom, rgba(73, 70, 70, 0.9), rgba(245, 243, 243, 0.966)),
+    url('./images/Music-Live-Bands-in-Lagos.jpg') no-repeat center center/cover;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 10%;
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-event h4 {
+  color: #ec5242;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+.main-event h1 {
+  font-family: cocogoose, sans-serif;
+  color: #ec5242;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.main-event p {
+  color: #272a31;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-top: 2em;
+  border: 2px solid white;
+  padding: 1em;
+  width: 60%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.main-event h2 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-top: 2em;
+  color: #272a31;
+  font-family: cocogoose, sans-serif;
+  text-transform: uppercase;
+}
+
+.main-event h3 {
+  margin: 0 auto;
+  margin-top: 1em;
+  color: #272a31;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+
+.side-attraction { background-color: black; }
+
+.side-attraction h2 {
+  color: white;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 10px;
+  border: 1px solid #ec5242;
+  border-radius: 5px;
+  width: 3vw;
+}
+
+.side-program {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.side-program div {
+  border: 1px solid #272a31;
+  background: #272a31;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-program h3 {
+  color: #ec5242;
+  margin-top: 0.5em;
+}
+
+.side-program p {
+  margin-top: 0.5em;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+
+.program-link {
+  margin: 0 auto;
+  text-decoration: underline;
+  margin-top: 2em;
+}
+
+.fa-napster,
+.fa-gamepad,
+.fa-play-circle,
+.fa-suitcase { color: #d3d3d3; }
+
+.artist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 2em;
+  justify-content: center;
+}
+
+.artist-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.artist-image { width: 50%; }
+
+.artist-image img { width: 85%; }
+
+#burna-img { width: 90%; }
+
+.artiste h2 {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.artist-info i { color: #ec5242; }
+
+.artist-info h3 { margin-bottom: 0.3em; }
+
+.artist-info p { line-height: 1.2; }
+
+#tiwa-info { margin-left: 2.5em; }
+
+.grey-horizontal {
+  margin-top: 7px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  margin-right: 20em;
+  width: 2vw;
+}
+
+.partners {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
+.partners .title {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.partner-list {
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  align-items: center;
+}
+
+.footer-logo { display: flex; }
+
+.footer-logo-text { margin-left: 0.3em; }
+
+/* About event */
+
+.footer-about { margin-right: 15em; }
+
+.about-event { padding: 6em; }
+
+.about-event h1 {
+  font-family: cocogoose, sans-serif;
+  color: #ec5242;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.about-event p {
+  color: #272a31;
+  line-height: 2;
+  margin: 0 auto;
+  margin-top: 2em;
+
+  /* border: 2px solid white; */
+  background-color: #fff;
+  padding: 2em;
+  width: 80%;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-event h2 {
+  margin: 0 auto;
+  color: #272a31;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.about-event a {
+  margin: 0 auto;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.about-logo { border-bottom: 1px solid rgb(238, 232, 232); }
+
+.about-logo h2 { margin: 0 auto; }
+
+.about-logo p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.about-logo .logo {
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-logo h4 {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  font-size: 0.8rem;
+}
+
+.past-event h2 {
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.past-event p { margin: 0 auto; }
+
+.event-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 30vh;
+  width: 50vw;
+  grid-gap: 20px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.event-image {
+  background:
+    linear-gradient(to bottom, rgba(231, 158, 158, 0.9), rgba(58, 6, 6, 0.966)),
+    url('./images/fest.jpeg') no-repeat center center/cover;
+}
+
+.second-event-image {
+  background:
+    linear-gradient(to bottom, rgba(231, 158, 158, 0.9), rgba(58, 6, 6, 0.966)),
+    url('./images/live.jpeg') no-repeat center center/cover;
+}
+
+.event-images h3 {
+  color: white;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.dark {
+  background-color: #272a31;
+  color: #fff;
+  height: 10vh;
+}
+
+.bottom { padding: 3em; }
+
+/* Tickets section */
+
+.tickets { background-color: rgba(214, 210, 210, 0.3); }
+
+.tickets h1 { margin: 0 auto; }
+
+.tickets-step {
+  border: 1px solid rgb(214, 210, 210);
+  padding: 1em;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.tickets-step::before {
+  content: '\25C6';
+  color: #ec5242;
+  padding-right: 5px;
+}
+
+.span-ticket-text { margin-left: 1em; }
+
+.ticket-table {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2fr 1.5fr;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.ticket-table div { border: 1px solid rgb(224, 215, 215); }
+
+.ticket-table div:last-child { border-bottom: none; }
+
+input[type="radio"] { margin: auto; }
+
+#row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#row div { border-right: none; }
+
+#row div:nth-child(1) {
+  border-left: none;
+  border-bottom: none;
+}
+
+.col {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.colored-border {
+  border: 5px solid;
+  border-image: linear-gradient(to left, rgb(240, 24, 9) 25%, yellow 25%, rgb(0, 255, 200) 50%, red 50%, rgb(0, 238, 255) 75%, rgb(253, 35, 6) 55%) 5;
+}
+
+.col-bg { padding: 1.5em; }
+
+.orange-box {
+  background-color: #ec5242;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  margin: 0 auto;
+  margin-top: -1.5em;
+}
+
+.fa-chevron-down {
+  transform: rotate(305deg);
+  padding: 1em;
+  color: #fff;
+}
+
+#day-show,
+#day-show1,
+#day-show2,
+#day-show3,
+#day-show4,
+#day-show5,
+#day-show6,
+#day-show7 { display: none; }
+
+.raffle h1 { margin: 0 auto; }
+
+.raffle-ticket-1,
+.raffle-ticket-2 {
+  margin: 0 auto;
+  margin-top: 4em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.raffle-ticket {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grey {
+  background-color: #f5efef;
+  height: 5vh;
+}
+
+.button {
+  background-color: #ec5242;
+  color: white;
+  padding: 1em 3em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.button:hover { background-color: #272a31; }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .side-program {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .artist {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+  }
+
+  .artist-image {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  #burna-img { width: 85%; }
+
+  .partner-list {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .footer-about { margin-right: 0; }
+
+  .menu-btn {
+    display: block;
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    color: #272a31;
+  }
+
+  .firstNavbar,
+  .nav-logo,
+  .secondNavbar { display: none; }
+
+  .show {
+    display: block;
+    margin-top: 3em;
+    text-align: center;
+    padding: 0;
+  }
+
+  .show li { border-bottom: 1px solid #d3d3d3; }
+
+  .btn {
+    color: #ec5242;
+    margin-left: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .main-event h4,
+  .main-event h2,
+  .main-event h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .main-event h1 { font-size: 2rem; }
+
+  .artist-info { width: 50%; }
+
+  section { overflow: hidden; }
+
+  .artiste h2 {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .artist-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-event { padding: 0; }
+
+  .about-event h1 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .about-event p { font-size: 3vw; }
+
+  .about-event h2 {
+    font-size: 4vw;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .about-event a { font-size: 3vw; }
+
+  .about-logo .logo { padding: 2em; }
+
+  .past-event { margin-bottom: 1em; }
+
+  .past-event h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .past-event p {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .event-images { grid-template-columns: 1fr; }
+
+  .event-images h3 {
+    padding: 2em;
+    margin-top: 0;
+  }
+
+  .bottom { padding: 0; }
+
+  .tickets-step {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .span-ticket-text { margin: 0; }
+}
+
+@media (max-width: 576px) {
+  .footer { display: inline-block; }
+
+  .raffle-ticket { flex-direction: column; }
+
+  .ticket-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -10%;
+  }
+
+  #day-show,
+  #day-show1,
+  #day-show2,
+  #day-show3,
+  #day-show4,
+  #day-show5,
+  #day-show6,
+  #day-show7 {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  #sm-none { display: none; }
+
+  .main-event p {
+    line-height: 1;
+    width: 80%;
+  }
+}
