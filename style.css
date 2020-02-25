@@ -208,7 +208,7 @@ hr {
 
 .artist-image img { width: 85%; }
 
-.artist-image .tiwa-img { width: 100%; }
+#burna-img { width: 90%; }
 
 .artiste h2 {
   margin: 0 auto;
@@ -499,8 +499,10 @@ input[type="radio"] { margin: auto; }
 
   .artist-image {
     width: 100%;
-    margin-left: 15%;
+    margin-left: 5%;
   }
+
+  #burna-img { width: 85%; }
 
   .partner-list {
     display: flex;
@@ -547,10 +549,7 @@ input[type="radio"] { margin: auto; }
 
   .main-event h1 { font-size: 2rem; }
 
-  .artist-info {
-    width: 90%;
-    margin-left: 3%;
-  }
+  .artist-info { width: 50%; }
 
   section { overflow: hidden; }
 
@@ -561,7 +560,7 @@ input[type="radio"] { margin: auto; }
 
   .artist-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -614,12 +613,6 @@ input[type="radio"] { margin: auto; }
 }
 
 @media (max-width: 576px) {
-  .artist-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .footer { display: inline-block; }
 
   .raffle-ticket { flex-direction: column; }
