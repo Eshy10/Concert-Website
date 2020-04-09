@@ -485,6 +485,18 @@ input[type="radio"] { margin: auto; }
 
 /* Media Queries */
 
+@media (max-width: 992px) {
+  .artist-image { min-width: 30%; }
+
+  .artist-info { min-width: 50%; }
+
+  .btn { padding: 0.5em; }
+
+  .container { padding: 3em; }
+
+  #burna-img { min-width: 38%; }
+}
+
 @media (max-width: 768px) {
   .side-program {
     display: grid;
