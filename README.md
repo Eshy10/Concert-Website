@@ -20,7 +20,7 @@ To build a concert website for an HTML/CSS Capstone Project at Microverse
 - Javascript (DOM)
 
 # Live demo
-<a href="https://raw.githack.com/Eshy10/Concert-Website/Feature/index.html">Live Demo Link</a>
+<a href="https://rawcdn.githack.com/Eshy10/Concert-Website/7c50c519afb497f728ee22698036b63fcdc7d73c/index.html">Live Demo Link</a>
 
 # Video link
 - The video is an explanation of the project
